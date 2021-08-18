@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 :root {
-  --primary-color: #4f46e5;
+  --primary-color:#991B1B ;
   --dark-gray: #6b7280;
   --off-white: #f3f4f6;
-  --brown: #
+  
 }
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  font-size: 1rem;
 }
 hr {
   margin: 3rem 0rem;
@@ -35,7 +36,9 @@ hr {
 }
 .link-secondary {
   color: var(--primary-color);
-  border-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
   border: 1px solid var(--primary-color);
 }
 .list-non-bullet {
@@ -55,13 +58,14 @@ hr {
 }
 .navigation .nav-brand {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 .navigation .nav-pills {
   text-align: right;
 }
 .navigation .link {
   color: white;
+
 }
 .navigation .link-active {
   font-weight: bold;
@@ -93,6 +97,10 @@ hr {
 .ow {
   background-color: var(--off-white);
 }
+.black{
+  background-color:burlywood;
+}
+
 /** footer**/
 footer {
   background-color: var(--primary-color);
